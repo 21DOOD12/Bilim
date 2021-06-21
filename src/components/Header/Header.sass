@@ -1,0 +1,56 @@
+
+
+.wrapper
+  max-width: 1440px
+  margin-left: 160px
+
+.container
+  max-width: 1120px
+  margin-left: 160px
+  margin-top: 50px
+
+.header__container
+  max-width: 1120px
+  height: 72px
+  display: flex
+
+.header__logo
+  padding-right: 15px
+
+.header__text
+  width: 126px
+  height: 72px
+  padding-right: 370px
+
+.header__text2
+  padding-right: 95px
+
+.logo__text
+  font-size: 20px
+  font-weight: bold
+
+.upper__text
+  width: 95px
+  height: 27px
+  font-weight: bold
+  font-size: 22px
+  color: #00A189
+
+a
+  text-decoration: none
+  position: relative
+
+.header__text2 a::before
+  content: ''
+  left: 0
+  bottom: 0
+  position: absolute
+  width: 100%
+  height: 2px
+  background-color: #C4C4C4
+  transition: 0.2s
+  transform: scaleX(0)
+
+.header__text2 a:hover:before
+  width: 100%
+  transform: scaleX(1)
