@@ -12,7 +12,7 @@ function Advantages() {
     <div className="wrapper">
       <div className="advantages__container">
         <div className="advantages__text3">
-          <div className="advantages__title">преимущества</div>
+          <div className="advantages__title">Преимущества</div>
         </div>
         <div className="advantages__block">
           <div className="advantages__blocks">

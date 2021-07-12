@@ -25,6 +25,8 @@ function App() {
           <Route exact path="/News/:id" component={FullCard} />
           <Route exact path="/signup" component={SignUp} />
           <Route exact path="/signup/sign" component={Sign} />
+          <Route exact path="/Course" component={Course} />
+          
           <Redirect to="/" />
         </Switch>
         <Footer />
